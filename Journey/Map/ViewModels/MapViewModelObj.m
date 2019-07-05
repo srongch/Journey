@@ -58,9 +58,6 @@
     CLLocationCoordinate2D neCoord = MKCoordinateForMapPoint(neMapPoint); // (x2,y2)
     CLLocationCoordinate2D swCoord = MKCoordinateForMapPoint(swMapPoint); // (x1, y1)
 
-//    ?p2Lat=53.394655&p1Lon=9.757589&p1Lat=53.694865&p2Lon=10.099891
-//    MapBound *mapbound = [[MapBound alloc]initWithLatitude1:53.694865 longtitute1:9.757589 latitude2:53.394655 longtitute2:10.099891];
-    
     MapBound *mapbound = [[MapBound alloc]initWithLatitude1:swCoord.latitude longtitute1:swCoord.longitude latitude2:neCoord.latitude longtitute2:neCoord.longitude];
 
 

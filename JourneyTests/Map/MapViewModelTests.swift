@@ -44,12 +44,11 @@ class MapViewModelTests: XCTestCase {
             expect.fulfill()
         }
         
-        
-        
-        let mockRect = MKMapRect(origin: MKMapPoint(x: 141489399.78174415, y: 86566511.021178886), size: MKMapSize(width: 8227.8402649760246, height: 17026.144139453769))
+
+        let mockRect = MKMapRect(origin: MKMapPoint(x: 133094305.64442337, y: 87506967.062840745), size: MKMapSize(width: 12493.858283638954, height: 12493.858283638954))
         model.setMapBound(mockRect)
         
-        let mockBound = MapBound(latitude1: 53.68838346404299, longtitute1: 9.75207180316707, latitude2: 53.701902957168834, longtitute2: 9.763106196832979)
+        let mockBound = MapBound(latitude1: 52.938522321001983, longtitute1: -1.5066267848297628, latitude2: 52.948619248797378, longtitute2: -1.4898712151701829)
         
         XCTAssertEqual(mockRect, model.getCurrentMapRect())
         XCTAssertEqual(mockBound, model.calculatMapBound(mockRect)!)

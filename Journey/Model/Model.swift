@@ -44,7 +44,6 @@ struct Model : Codable, CarFleetProtocol{
         case coordinate
         case latitude
         case longitude
-        case heading
     }
     
 

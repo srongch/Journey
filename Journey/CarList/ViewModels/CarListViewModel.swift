@@ -23,10 +23,6 @@ class CarListViewModel: NSObject {
     private var carListFilterd: [Model] = []
     private var filterType: FilterType
     
-    // i don need this one.
-//    private var hasCar : Bool = false
-//    private var hasFeel : Bool = false
-    
     
     weak var delegate: LoadingProtocol?
     
@@ -45,10 +41,10 @@ class CarListViewModel: NSObject {
         // get car list, car information
         firstly {
             when(fulfilled: carNetwork.getCarInformation(), carNetwork.getCarList(for: self.mapBound))
-            }.done { [weak self] carInfors, careFleet in
+            }.done { [weak self] carInfors, carFleets in
                 //TODO :
                  guard let strongSelf = self else { return }
-                strongSelf.getAddress(models: careFleet,cars: carInfors)
+                strongSelf.getAddress(models: carFleets,cars: carInfors)
             }.catch {[weak self] error in
                 guard let strongSelf = self else { return }
                 strongSelf.delegate?.error(error: error.localizedDescription)

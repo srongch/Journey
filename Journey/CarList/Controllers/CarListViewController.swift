@@ -42,6 +42,7 @@ class CarListViewController: UIViewController {
     }
     
     func setupViewModel(){
+        // Map point : Derby University Area
         viewModel = CarListViewModel (carNetwork : JourneyNetwork(provider: MoyaProvider<Journey>()), mapBound: MapBound(latitude1: 52.926763991689398, longtitute1: -1.5066267848297628, latitude2: 52.948619248797378, longtitute2: -1.4898712151701829), filterType: .all)
         viewModel.delegate = self
         
