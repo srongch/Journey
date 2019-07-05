@@ -80,3 +80,179 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+Pods/Target Support Files/Result/Result.xcconfig
+Pods/Target Support Files/Result/Result.modulemap
+Pods/Target Support Files/Result/Result-umbrella.h
+Pods/Target Support Files/Result/Result-prefix.pch
+Pods/Target Support Files/Result/Result-Info.plist
+Pods/Target Support Files/Result/Result-dummy.m
+Pods/Target Support Files/PromiseKit/PromiseKit.xcconfig
+Pods/Target Support Files/PromiseKit/PromiseKit.modulemap
+Pods/Target Support Files/PromiseKit/PromiseKit-umbrella.h
+Pods/Target Support Files/PromiseKit/PromiseKit-prefix.pch
+Pods/Target Support Files/PromiseKit/PromiseKit-Info.plist
+Pods/Target Support Files/PromiseKit/PromiseKit-dummy.m
+Pods/Target Support Files/Pods-JourneyTests/Pods-JourneyTests.release.xcconfig
+Pods/Target Support Files/Pods-JourneyTests/Pods-JourneyTests.modulemap
+Pods/Target Support Files/Pods-JourneyTests/Pods-JourneyTests.debug.xcconfig
+Pods/Target Support Files/Pods-JourneyTests/Pods-JourneyTests-umbrella.h
+Pods/Target Support Files/Pods-JourneyTests/Pods-JourneyTests-Info.plist
+Pods/Target Support Files/Pods-JourneyTests/Pods-JourneyTests-dummy.m
+Pods/Target Support Files/Pods-JourneyTests/Pods-JourneyTests-acknowledgements.plist
+Pods/Target Support Files/Pods-JourneyTests/Pods-JourneyTests-acknowledgements.markdown
+Pods/Target Support Files/Pods-Journey/Pods-Journey.release.xcconfig
+Pods/Target Support Files/Pods-Journey/Pods-Journey.modulemap
+Pods/Target Support Files/Pods-Journey/Pods-Journey.debug.xcconfig
+Pods/Target Support Files/Pods-Journey/Pods-Journey-umbrella.h
+Pods/Target Support Files/Pods-Journey/Pods-Journey-Info.plist
+Pods/Target Support Files/Pods-Journey/Pods-Journey-frameworks.sh
+Pods/Target Support Files/Pods-Journey/Pods-Journey-dummy.m
+Pods/Target Support Files/Pods-Journey/Pods-Journey-acknowledgements.plist
+Pods/Target Support Files/Pods-Journey/Pods-Journey-acknowledgements.markdown
+Pods/Target Support Files/Moya/Moya.xcconfig
+Pods/Target Support Files/Moya/Moya.modulemap
+Pods/Target Support Files/Moya/Moya-umbrella.h
+Pods/Target Support Files/Moya/Moya-prefix.pch
+Pods/Target Support Files/Moya/Moya-Info.plist
+Pods/Target Support Files/Moya/Moya-dummy.m
+Pods/Target Support Files/Kingfisher/Kingfisher.xcconfig
+Pods/Target Support Files/Kingfisher/Kingfisher.modulemap
+Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h
+Pods/Target Support Files/Kingfisher/Kingfisher-prefix.pch
+Pods/Target Support Files/Kingfisher/Kingfisher-Info.plist
+Pods/Target Support Files/Kingfisher/Kingfisher-dummy.m
+Pods/Target Support Files/Alamofire/Alamofire.xcconfig
+Pods/Target Support Files/Alamofire/Alamofire.modulemap
+Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+Pods/Target Support Files/Alamofire/Alamofire-Info.plist
+Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+Pods/Result/Result/ResultProtocol.swift
+Pods/Result/Result/Result.swift
+Pods/Result/Result/NoError.swift
+Pods/Result/Result/AnyError.swift
+Pods/Result/README.md
+Pods/Result/LICENSE
+Pods/PromiseKit/Sources/when.swift
+Pods/PromiseKit/Sources/when.m
+Pods/PromiseKit/Sources/Thenable.swift
+Pods/PromiseKit/Sources/Resolver.swift
+Pods/PromiseKit/Sources/race.swift
+Pods/PromiseKit/Sources/race.m
+Pods/PromiseKit/Sources/PromiseKit.h
+Pods/PromiseKit/Sources/Promise.swift
+Pods/PromiseKit/Sources/PMKCallVariadicBlock.m
+Pods/PromiseKit/Sources/NSMethodSignatureForBlock.m
+Pods/PromiseKit/Sources/LogEvent.swift
+Pods/PromiseKit/Sources/join.m
+Pods/PromiseKit/Sources/hang.swift
+Pods/PromiseKit/Sources/hang.m
+Pods/PromiseKit/Sources/Guarantee.swift
+Pods/PromiseKit/Sources/fwd.h
+Pods/PromiseKit/Sources/firstly.swift
+Pods/PromiseKit/Sources/Error.swift
+Pods/PromiseKit/Sources/dispatch_promise.m
+Pods/PromiseKit/Sources/Deprecations.swift
+Pods/PromiseKit/Sources/CustomStringConvertible.swift
+Pods/PromiseKit/Sources/Configuration.swift
+Pods/PromiseKit/Sources/Catchable.swift
+Pods/PromiseKit/Sources/Box.swift
+Pods/PromiseKit/Sources/AnyPromise.swift
+Pods/PromiseKit/Sources/AnyPromise.m
+Pods/PromiseKit/Sources/AnyPromise.h
+Pods/PromiseKit/Sources/AnyPromise+Private.h
+Pods/PromiseKit/Sources/after.swift
+Pods/PromiseKit/Sources/after.m
+Pods/PromiseKit/README.md
+Pods/PromiseKit/LICENSE
+Pods/PromiseKit/Extensions/UIKit/Sources/UIViewPropertyAnimator+Promise.swift
+Pods/PromiseKit/Extensions/UIKit/Sources/UIViewController+AnyPromise.m
+Pods/PromiseKit/Extensions/UIKit/Sources/UIViewController+AnyPromise.h
+Pods/PromiseKit/Extensions/UIKit/Sources/UIView+Promise.swift
+Pods/PromiseKit/Extensions/UIKit/Sources/UIView+AnyPromise.m
+Pods/PromiseKit/Extensions/UIKit/Sources/UIView+AnyPromise.h
+Pods/PromiseKit/Extensions/UIKit/Sources/PMKUIKit.h
+Pods/PromiseKit/Extensions/Foundation/Sources/Process+Promise.swift
+Pods/PromiseKit/Extensions/Foundation/Sources/PMKFoundation.h
+Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+Promise.swift
+Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+AnyPromise.m
+Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+AnyPromise.h
+Pods/PromiseKit/Extensions/Foundation/Sources/NSTask+AnyPromise.m
+Pods/PromiseKit/Extensions/Foundation/Sources/NSTask+AnyPromise.h
+Pods/PromiseKit/Extensions/Foundation/Sources/NSObject+Promise.swift
+Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift
+Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m
+Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h
+Pods/PromiseKit/Extensions/Foundation/Sources/afterlife.swift
+Pods/Pods.xcodeproj/project.pbxproj
+Pods/Moya/Sources/Moya/ValidationType.swift
+Pods/Moya/Sources/Moya/URLRequest+Encoding.swift
+Pods/Moya/Sources/Moya/URL+Moya.swift
+Pods/Moya/Sources/Moya/Task.swift
+Pods/Moya/Sources/Moya/TargetType.swift
+Pods/Moya/Sources/Moya/Response.swift
+Pods/Moya/Sources/Moya/Plugins/NetworkLoggerPlugin.swift
+Pods/Moya/Sources/Moya/Plugins/NetworkActivityPlugin.swift
+Pods/Moya/Sources/Moya/Plugins/CredentialsPlugin.swift
+Pods/Moya/Sources/Moya/Plugins/AccessTokenPlugin.swift
+Pods/Moya/Sources/Moya/Plugin.swift
+Pods/Moya/Sources/Moya/MultiTarget.swift
+Pods/Moya/Sources/Moya/MultipartFormData.swift
+Pods/Moya/Sources/Moya/MoyaProvider.swift
+Pods/Moya/Sources/Moya/MoyaProvider+Internal.swift
+Pods/Moya/Sources/Moya/MoyaProvider+Defaults.swift
+Pods/Moya/Sources/Moya/MoyaError.swift
+Pods/Moya/Sources/Moya/Moya+Alamofire.swift
+Pods/Moya/Sources/Moya/Image.swift
+Pods/Moya/Sources/Moya/Endpoint.swift
+Pods/Moya/Sources/Moya/Cancellable.swift
+Pods/Moya/Sources/Moya/AnyEncodable.swift
+Pods/Moya/Readme.md
+Pods/Moya/License.md
+Pods/Manifest.lock
+Pods/Kingfisher/Sources/UIButton+Kingfisher.swift
+Pods/Kingfisher/Sources/ThreadHelper.swift
+Pods/Kingfisher/Sources/String+MD5.swift
+Pods/Kingfisher/Sources/Resource.swift
+Pods/Kingfisher/Sources/RequestModifier.swift
+Pods/Kingfisher/Sources/Placeholder.swift
+Pods/Kingfisher/Sources/KingfisherOptionsInfo.swift
+Pods/Kingfisher/Sources/KingfisherManager.swift
+Pods/Kingfisher/Sources/Kingfisher.swift
+Pods/Kingfisher/Sources/Kingfisher.h
+Pods/Kingfisher/Sources/Indicator.swift
+Pods/Kingfisher/Sources/ImageView+Kingfisher.swift
+Pods/Kingfisher/Sources/ImageTransition.swift
+Pods/Kingfisher/Sources/ImageProcessor.swift
+Pods/Kingfisher/Sources/ImagePrefetcher.swift
+Pods/Kingfisher/Sources/ImageModifier.swift
+Pods/Kingfisher/Sources/ImageDownloader.swift
+Pods/Kingfisher/Sources/ImageCache.swift
+Pods/Kingfisher/Sources/Image.swift
+Pods/Kingfisher/Sources/FormatIndicatedCacheSerializer.swift
+Pods/Kingfisher/Sources/Filter.swift
+Pods/Kingfisher/Sources/CacheSerializer.swift
+Pods/Kingfisher/Sources/Box.swift
+Pods/Kingfisher/Sources/AnimatedImageView.swift
+Pods/Kingfisher/README.md
+Pods/Kingfisher/LICENSE
+Pods/Alamofire/Source/Validation.swift
+Pods/Alamofire/Source/Timeline.swift
+Pods/Alamofire/Source/TaskDelegate.swift
+Pods/Alamofire/Source/SessionManager.swift
+Pods/Alamofire/Source/SessionDelegate.swift
+Pods/Alamofire/Source/ServerTrustPolicy.swift
+Pods/Alamofire/Source/Result.swift
+Pods/Alamofire/Source/ResponseSerialization.swift
+Pods/Alamofire/Source/Response.swift
+Pods/Alamofire/Source/Request.swift
+Pods/Alamofire/Source/ParameterEncoding.swift
+Pods/Alamofire/Source/Notifications.swift
+Pods/Alamofire/Source/NetworkReachabilityManager.swift
+Pods/Alamofire/Source/MultipartFormData.swift
+Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+Pods/Alamofire/Source/Alamofire.swift
+Pods/Alamofire/Source/AFError.swift
+Pods/Alamofire/README.md
+Pods/Alamofire/LICENSE
+Podfile.lock

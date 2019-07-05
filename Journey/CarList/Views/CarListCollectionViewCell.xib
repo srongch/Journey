@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CarListCollectionViewCell" customModule="MyTaxi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="153" height="205"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cpe-kh-ddp">
+                    <rect key="frame" x="0.0" y="0.0" width="153" height="205"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Syh-dK-d4F">
+                            <rect key="frame" x="11" y="8" width="82.5" height="51"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TGB-4566" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8I-vW-2KM">
+                                    <rect key="frame" x="0.0" y="0.0" width="82.5" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hyundai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAi-PQ-Fge">
+                                    <rect key="frame" x="0.0" y="22.5" width="82.5" height="14.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLACK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWI-Vo-HdL">
+                                    <rect key="frame" x="0.0" y="39" width="82.5" height="12"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="316, Flasgsgsfgfdgdfgfdgthead County" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcx-Xv-7AS">
+                            <rect key="frame" x="26" y="168.5" width="117" height="26.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="taxi_icon" translatesAutoresizingMaskIntoConstraints="NO" id="54T-Vn-ksi">
+                            <rect key="frame" x="124" y="5" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="DbE-Kc-slo"/>
+                                <constraint firstAttribute="width" constant="24" id="mA5-ED-AHt"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NVl-0F-aqV">
+                            <rect key="frame" x="8" y="67" width="137" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="sQS-Um-IQa"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="local_icon" translatesAutoresizingMaskIntoConstraints="NO" id="In1-js-ae7">
+                            <rect key="frame" x="11" y="170.5" width="10" height="10"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="10" id="SPG-dA-M06"/>
+                                <constraint firstAttribute="height" constant="10" id="q26-v0-Am1"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="54T-Vn-ksi" firstAttribute="top" secondItem="cpe-kh-ddp" secondAttribute="top" constant="5" id="2we-9G-cT1"/>
+                        <constraint firstAttribute="bottom" secondItem="pcx-Xv-7AS" secondAttribute="bottom" constant="10" id="7ni-YY-bRC"/>
+                        <constraint firstItem="In1-js-ae7" firstAttribute="leading" secondItem="Syh-dK-d4F" secondAttribute="leading" id="A1H-6f-j3l"/>
+                        <constraint firstItem="pcx-Xv-7AS" firstAttribute="leading" secondItem="In1-js-ae7" secondAttribute="trailing" constant="5" id="Cmw-Ep-gzg"/>
+                        <constraint firstItem="Syh-dK-d4F" firstAttribute="leading" secondItem="cpe-kh-ddp" secondAttribute="leading" constant="11" id="JWP-SD-BwM"/>
+                        <constraint firstAttribute="trailing" secondItem="54T-Vn-ksi" secondAttribute="trailing" constant="5" id="bcl-Z5-ca6"/>
+                        <constraint firstItem="Syh-dK-d4F" firstAttribute="top" secondItem="cpe-kh-ddp" secondAttribute="top" constant="8" id="gWn-L8-2LG"/>
+                        <constraint firstItem="NVl-0F-aqV" firstAttribute="top" secondItem="Syh-dK-d4F" secondAttribute="bottom" constant="8" id="lEh-5J-ATV"/>
+                        <constraint firstItem="NVl-0F-aqV" firstAttribute="leading" secondItem="cpe-kh-ddp" secondAttribute="leading" constant="8" id="m2f-4K-eug"/>
+                        <constraint firstItem="In1-js-ae7" firstAttribute="top" secondItem="pcx-Xv-7AS" secondAttribute="top" constant="2" id="mDD-Re-kEH"/>
+                        <constraint firstAttribute="trailing" secondItem="pcx-Xv-7AS" secondAttribute="trailing" constant="10" id="xI4-qf-O0g"/>
+                        <constraint firstAttribute="trailing" secondItem="NVl-0F-aqV" secondAttribute="trailing" constant="8" id="yrm-P2-BWe"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cpe-kh-ddp" secondAttribute="trailing" id="GqP-rb-bQf"/>
+                <constraint firstAttribute="bottom" secondItem="cpe-kh-ddp" secondAttribute="bottom" id="JAB-2d-OdU"/>
+                <constraint firstItem="cpe-kh-ddp" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="TzT-Dr-pQb"/>
+                <constraint firstItem="cpe-kh-ddp" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="qIe-6N-eFZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="carImage" destination="NVl-0F-aqV" id="ngA-tY-Jyh"/>
+                <outlet property="carType" destination="54T-Vn-ksi" id="kkN-6R-NbA"/>
+                <outlet property="color" destination="NWI-Vo-HdL" id="Wbi-h8-Ev6"/>
+                <outlet property="location" destination="pcx-Xv-7AS" id="J7I-l1-KPQ"/>
+                <outlet property="modelName" destination="YAi-PQ-Fge" id="egI-6V-qIQ"/>
+                <outlet property="plateNumber" destination="v8I-vW-2KM" id="arm-A8-yHU"/>
+            </connections>
+            <point key="canvasLocation" x="-372" y="-200"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="local_icon" width="8" height="10"/>
+        <image name="taxi_icon" width="24" height="24"/>
+    </resources>
+</document>
